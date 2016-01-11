@@ -17,5 +17,6 @@ public class Clients {
 	
 	public void delClient(Client client) {
 		mClients.remove(client);
+		System.out.println(client.toString() + " deleted.");
 	}
 }

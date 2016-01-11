@@ -3,7 +3,7 @@ package exercice2.etape1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Client extends Clients {
+public class Client {
 	
 	private String mName;
 	private String mAddress;

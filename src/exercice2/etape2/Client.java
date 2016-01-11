@@ -1,6 +1,6 @@
 package exercice2.etape2;
 
-public class Client extends Clients {
+public class Client {
 	
 	private String mName;
 	private String mAddress;

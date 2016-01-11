@@ -26,8 +26,12 @@ public class Main {
 		order1.printOrder();
 		order3.printOrder();
 		
+		System.out.println("Trying to delete client1.");
 		clients.delClient(client1);
 		orders.delOrder(order3);
+		
+		client1.delOrder(order4);
+		clients.delClient(client1);
 	}
 
 }

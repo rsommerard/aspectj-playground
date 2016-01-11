@@ -16,6 +16,10 @@ public class Clients {
 	}
 	
 	public void delClient(Client client) {
+		if (client.hasOrder()) {
+			return;
+		}
+		
 		mClients.remove(client);
 	}
 }

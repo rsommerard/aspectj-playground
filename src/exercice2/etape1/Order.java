@@ -1,6 +1,6 @@
 package exercice2.etape1;
 
-public class Order extends Orders {
+public class Order {
 
 	private Orders mOrders;
 	private int mId;
